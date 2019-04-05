@@ -1,0 +1,24 @@
+.paginator {
+  position: relative;
+  width: 60%;
+  margin: 0 auto; }
+  @media (max-width: 480px) {
+    .paginator {
+      display: none; } }
+  .paginator li {
+    margin-top: 25px;
+    cursor: pointer; }
+    .paginator li.prev {
+      display: block;
+      height: 50px;
+      width: 50px;
+      background-image: url(../img/back.svg);
+      position: absolute;
+      left: 0; }
+    .paginator li.next {
+      display: block;
+      height: 50px;
+      width: 50px;
+      background-image: url(../img/next.svg);
+      position: absolute;
+      right: 0; }
